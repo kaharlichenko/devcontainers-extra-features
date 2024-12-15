@@ -1,0 +1,20 @@
+{
+    "id": "watchexec",
+    "version": "1.0.0",
+    "name": "watchexec (via Github Releases)",
+    "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/watchexec",
+    "description": "watchexec is a simple, standalone tool that watches a path and runs a command whenever it detects modifications.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-extra/features/gh-release"
+    ]
+}
